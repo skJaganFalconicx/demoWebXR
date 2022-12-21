@@ -51,8 +51,8 @@ export default [
     description: 'This species of parrot is called black cockatoo.',
   },
   {
-    title: 'Cave painting of Bull',
-    description: 'Discovered in the Lubang Jeriji Saléh cave, Indonesia',
+    title: 'The Eurasian jay',
+    description: 'This bird is known as the symbol of enlightment.',
     offsety: 0.04
   },
   {
