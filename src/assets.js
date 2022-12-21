@@ -81,7 +81,7 @@ export default {
     pg_object3_tex: { url: 'Buddha_3.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
 
   // paintings
-    painting_seurat_tex: { url: 'paintings/Bull.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_seurat_tex: { url: 'paintings/EurasianJay.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_sorolla_tex: { url: 'paintings/bird.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_bosch_tex: { url: 'paintings/Battleship.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_degas_tex: { url: 'paintings/Parrot.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
