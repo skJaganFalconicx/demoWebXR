@@ -81,13 +81,13 @@ export default {
     pg_object3_tex: { url: 'Buddha_3.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
 
   // paintings
-    painting_seurat_tex: { url: 'paintings/Bull.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
-    painting_sorolla_tex: { url: 'paintings/bird.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
-    painting_bosch_tex: { url: 'paintings/Battleship.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_seurat_tex: { url: 'paintings/Bull.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_sorolla_tex: { url: 'paintings/bird.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_bosch_tex: { url: 'paintings/Battleship.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_degas_tex: { url: 'paintings/Parrot.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_rembrandt_tex: { url: 'paintings/Marsrover.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
-    painting_alps_tex: { url: 'paintings/Alps.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
-    painting_blackBird_tex: { url: 'paintings/Blackbird.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_alps_tex: { url: 'paintings/Alps.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_blackBird_tex: { url: 'paintings/Blackbird.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
 
   // sounds
   video_snd: { url: 'ogg/Video.ogg' },
