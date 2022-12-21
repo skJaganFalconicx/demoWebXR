@@ -40,7 +40,7 @@ export default {
   //vertigo_door_lm_tex: { url: 'vertigo_door_lm.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
   //vertigo_lm_tex: { url: 'vertigo_lm.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
   //checkboard_tex: { url: 'checkboard.basis', options: { wrapT: THREE.RepeatWrapping, wrapS: THREE.RepeatWrapping, repeat: [4, 4] } },
-    Astronaut1_map: { url: 'Astronaut1.png', options: { encoding: THREE.sRGBEncoding, flipY: false } },
+    Astronaut1_map: { url: 'Astronaut1.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
     Astronaut1_aO: { url: 'Astronaut1_aO.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
     Astronaut2_map: { url: 'Astronaut2.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
     Astronaut2_aO: { url: 'Astronaut2_aO.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
@@ -81,7 +81,7 @@ export default {
     pg_object3_tex: { url: 'Buddha_3.basis', options: { encoding: THREE.sRGBEncoding, flipY: false } },
 
   // paintings
-    painting_seurat_tex: { url: 'paintings/bull.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    painting_seurat_tex: { url: 'paintings/Bull.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_sorolla_tex: { url: 'paintings/bird.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_bosch_tex: { url: 'paintings/Battleship.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
     painting_degas_tex: { url: 'paintings/Parrot.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
