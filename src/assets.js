@@ -23,11 +23,11 @@ export default {
   stereopanoR: { url: 'stereopanoR.basis', options: { encoding: THREE.sRGBEncoding }},
   pano1: { url: 'stereopano_small.basis', options: {encoding: THREE.sRGBEncoding} },
 
-    pano2: { url: 'Ocean.basis', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano3: { url: 'Tea_plantation.basis', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano4: { url: 'Mine.basis', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano5: { url: 'Museum.basis', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano6: { url: 'Ancient_Rome.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
+    pano2: { url: 'Ocean.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano3: { url: 'Tea_plantation.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano4: { url: 'Mine.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano5: { url: 'Museum.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano6: { url: 'Ancient_Rome.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
 
   // graffiti
   spray_model: { url: 'paintingBrush.glb' },
