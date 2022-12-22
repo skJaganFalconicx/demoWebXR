@@ -42,7 +42,7 @@ var clock = new THREE.Clock();
 var scene, parent, renderer, camera, controls, context = {};
 var raycontrol, teleport, controllers = [];
 
-var listener, ambientMusic, gamepad, cameraRig, cameraDirection, xrCamera;
+var listener, ambientMusic, gamepad, cameraRig, xrCamera, cameraDirection;
 
 var rooms = [
   roomHall,
@@ -72,7 +72,7 @@ const roomNames = [
 
 const musicThemes = [
     false,
-    'video_snd',
+    false,
     false,
     false,
     false,
@@ -137,12 +137,12 @@ function playMusic(room) {
   ambientMusic.setBuffer(assets[music]);
   ambientMusic.setLoop(true);
   ambientMusic.setVolume(1.0);
-  if (room == 1) {
-      ambientMusic.offset = 0;
-  }
-  else {
+  //if (room == 1) {
+  //    ambientMusic.offset = 0;
+  //}
+  //else {
       ambientMusic.offset = Math.random() * 60;
-  }
+  //}
   ambientMusic.play();
 }
 
@@ -412,11 +412,12 @@ function animate() {
 
     if (gamepad) {
         let change = new THREE.Vector3();
-        cameraDirection = xrCamera.getWorldDirection();
+        //xrCamera.getWorldDirection(cameraDirection);
+        console.log(xrCamera.rotation.x / Math.PI*180);
         change.x = 0.2 * gamepad.axes[2];
         change.z = 0.2 * gamepad.axes[3];
         cameraRig.position.add(change);
-    }
+    };
 }
 
 window.onload = () => {init()};
