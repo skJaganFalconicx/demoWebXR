@@ -26,7 +26,7 @@ export default {
     pano2: { url: 'Ocean.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
     pano3: { url: 'Tea_plantation.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
     pano4: { url: 'Mine.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano5: { url: 'Museum.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano5: { url: 'Museum.basis', options: { encoding: THREE.sRGBEncoding, flipY: true} },
     pano6: { url: 'Ancient_rome.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
 
   // graffiti
