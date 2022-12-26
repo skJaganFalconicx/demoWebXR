@@ -21,7 +21,7 @@ export function setup(ctx, hall) {
   const panoGeo = new THREE.SphereBufferGeometry(0.15, 30, 20);
 
   for (var i = 0; i < NUM_PANOBALLS; i++) {
-    let asset = assets[`pano${i + 1}`];
+      let asset = assets[`pano${i + 1}_small`];
     var ball = new THREE.Mesh(
       new THREE.SphereBufferGeometry(0.15, 30, 20),
       new THREE.ShaderMaterial({

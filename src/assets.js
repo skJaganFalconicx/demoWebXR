@@ -21,13 +21,18 @@ export default {
 
   stereopanoL: { url: 'stereopanoL.basis', options: { encoding: THREE.sRGBEncoding }},
   stereopanoR: { url: 'stereopanoR.basis', options: { encoding: THREE.sRGBEncoding }},
-  pano1: { url: 'stereopano_small.basis', options: {encoding: THREE.sRGBEncoding} },
+  pano1_small: { url: 'stereopano_small.basis', options: {encoding: THREE.sRGBEncoding} },
 
-    pano2: { url: 'Ocean.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano3: { url: 'Tea_plantation.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
-    pano4: { url: 'Mine.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true} },
+    pano2: { url: 'Ocean.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true } },
+    pano3: { url: 'Tea_plantation.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true } },
+    pano4: { url: 'Mine.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true } },
     pano5: { url: 'Museum.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true } },
     pano6: { url: 'Ancient_rome.jpg', options: { encoding: THREE.sRGBEncoding, flipY: true } },
+    pano2_small: { url: 'Ocean.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false } },
+    pano3_small: { url: 'Tea_plantation.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false } },
+    pano4_small: { url: 'Mine.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false } },
+    pano5_small: { url: 'Museum.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false } },
+    pano6_small: { url: 'Ancient_rome.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false } },
 
   // graffiti
   spray_model: { url: 'paintingBrush.glb' },
