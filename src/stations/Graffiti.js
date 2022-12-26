@@ -136,7 +136,7 @@ export function setup(ctx, hall) {
 
   let width = 2048;
   let height = 1024;
-  let maxDistance = 0.5;
+  let maxDistance = 1;
 
   brushImg = new Image();
   canvasTmp = document.createElement('canvas');
