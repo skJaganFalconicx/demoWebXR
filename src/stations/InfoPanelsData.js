@@ -36,7 +36,7 @@ export default [
   },
   {
     title: 'Kingfisher',
-    description: 'Kingfishers are renowned for their dramatic hunting techniques..',
+    description: 'They are renowned for their dramatic hunting techniques.',
   },
   {
     title: 'Inside of a Battleship',
