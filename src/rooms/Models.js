@@ -125,8 +125,8 @@ export function setup(ctx) {
 }
 
 export function enter(ctx) {    
-  ctx.renderer.setClearColor(0x000000);
-  //ctx.renderer.setClearColor(0x677FA7);
+  //ctx.renderer.setClearColor(0x000000);
+  ctx.renderer.setClearColor(0x677FA7);
   ctx.scene.add(scene);
   ctx.scene.parent.fog = new THREE.FogExp2(0x677FA7, 0.004);
   //ctx.cameraRig.position.set(0,0,0);
