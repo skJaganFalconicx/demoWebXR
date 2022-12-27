@@ -413,7 +413,6 @@ function animate() {
     if (gamepad) {
         let change = new THREE.Vector3();
         //xrCamera.getWorldDirection(cameraDirection);
-        console.log(xrCamera.rotation.x / Math.PI*180);
         change.x = 0.2 * gamepad.axes[2];
         change.z = 0.2 * gamepad.axes[3];
         cameraRig.position.add(change);

@@ -112,7 +112,7 @@ export function setup(ctx) {
 
   for (let id in objectNames) {
     var mesh = scene.getObjectByName(objectNames[id]);
-      if (!mesh) { return; }
+      if (!mesh) { continue; }
     objects[objectNames[id]].mesh = mesh;
     for ( let i in animations) {
       if (animations[i].name === objectNames[id]) {
@@ -122,14 +122,19 @@ export function setup(ctx) {
       }
     }
   }
+
+    const pointLight = new THREE.PointLight(0xffffff);
+    pointLight.name = 'pointLight';
+    pointLight.position.set(0, 0.5, 0);
+    scene.add(pointLight);
 }
 
 export function enter(ctx) {    
-  //ctx.renderer.setClearColor(0x000000);
-  ctx.renderer.setClearColor(0x677FA7);
+  ctx.renderer.setClearColor(0x000000);
+  //ctx.renderer.setClearColor(0x677FA7);
   ctx.scene.add(scene);
   ctx.scene.parent.fog = new THREE.FogExp2(0x677FA7, 0.004);
-  //ctx.cameraRig.position.set(0,0,0);
+    //ctx.cameraRig.position.set(0,0,0);
 
   ctx.raycontrol.activateState('teleportVertigo');
   ctx.raycontrol.activateState('doorVertigo');

@@ -31,20 +31,20 @@ export default [
   },
   {
     title: 'Hello WebXR!',
-    description: 'A small compendium of interactions and little experiences introducing the immersive experience of the WebXR.\n \nMade by FalconicX technologies team.',
+      description: 'A small compendium of interactions and little experiences introducing the immersive experience of the WebXR.\nThis is for the demonstration of the power of the WebXR technology.\n \nMade by FalconicX technologies team.',
     offsety: 0.06
   },
   {
     title: 'Kingfisher',
-    description: 'They are renowned for their dramatic hunting techniques.',
+    description: 'They are renowned for their hunting techniques.',
   },
   {
     title: 'Inside of a Battleship',
     description: 'Battleships are the part of our Navy and have heavy artillery.',
   },
   {
-    title: 'Mars rover',
-      description: 'The Mars rover, Perseverance, landed on the Mars in February 2021.',
+    title: 'Changeable frame',
+      description: 'Use the buttons to switch between the Mars rover, the Alps and the bird.',
   },
   {
     title: 'Parrot',
