@@ -39,7 +39,7 @@ export default {
   //spray_model: { url: 'spray.glb' },
   //spray_tex: { url: 'spray.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
 
-  // vertigo
+  // animation hall
   animationRoom_model: { url: 'animation_room.glb' },
     animationRoom_panel_tex: { url: 'animationRoom_panel_tex.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
   //vertigo_door_lm_tex: { url: 'vertigo_door_lm.jpg', options: { encoding: THREE.sRGBEncoding, flipY: false} },
@@ -95,7 +95,6 @@ export default {
     painting_blackBird_tex: { url: 'paintings/Blackbird.basis', options: { encoding: THREE.sRGBEncoding, flipY: false} },
 
   // sounds
-  video_snd: { url: 'ogg/Video.ogg' },
   underwater_snd: { url: 'ogg/underwater.ogg' },
   plantation_snd: { url: 'ogg/plantation.ogg' },
   mining_snd: { url: 'ogg/mining.ogg' },

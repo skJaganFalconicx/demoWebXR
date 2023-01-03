@@ -410,13 +410,13 @@ function animate() {
     context.goto = null;
     }
 
-    if (gamepad) {
-        let change = new THREE.Vector3();
-        //xrCamera.getWorldDirection(cameraDirection);
-        change.x = 0.2 * gamepad.axes[2];
-        change.z = 0.2 * gamepad.axes[3];
-        cameraRig.position.add(change);
-    };
+    //if (gamepad) {
+    //    let change = new THREE.Vector3();
+    //    xrCamera.getWorldDirection(cameraDirection);
+    //    change.x = 0.2 * gamepad.axes[2];
+    //    change.z = 0.2 * gamepad.axes[3];
+    //    cameraRig.position.add(change);
+    //};
 }
 
 window.onload = () => {init()};
